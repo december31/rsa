@@ -10,7 +10,7 @@ public class App {
         keyPairGen.writeToFile("D:/privatekey", keyPairGen.getPrivateKey().getEncoded());
         keyPairGen.writeToFile("D:/publickey", keyPairGen.getPublicKey().getEncoded());
 
-        String message = "I miss you!!!";
+        String message = "Nguyen Duc An - 201210002 - CNTT1 - K61";
         System.out.println("Pain text: " + message);
         
         // encrypt
